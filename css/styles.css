@@ -123,3 +123,35 @@ body {
     color: hsl(228, 45%, 44%); 
 }
 
+@media screen and (max-width: 480px) {
+
+    .card {
+        width: 87.5%;
+        margin: 4rem auto;
+    }
+
+    .card-content {
+        padding: 1.5rem;
+    }
+
+    .card-content h1 {
+        font-size: 1.5rem;
+        margin: 0 auto 1rem;
+    }
+
+    .card-content p {
+    }
+
+    .plan-box {
+        padding: 1rem;
+        margin-bottom: 1.2rem;
+    }
+
+    .order-actions a:nth-child(1) {
+        margin-bottom: 1.7rem;
+    }
+
+    .order-actions {
+        margin-bottom: 1rem;
+    }
+}
